@@ -7,19 +7,19 @@ You’re never too old to learn
 
 ## Contact
 ***
-Phone: +7-920-574-60-23
-E-mail: ekat.sklyarova@yandex.ru
-Telegram: @gadesha_hi
-GitHub: @ket-jet
+* Phone: +7-920-574-60-23
+* E-mail: ekat.sklyarova@yandex.ru
+* Telegram: @gadesha_hi
+* GitHub: @ket-jet
 
 ## Skills
 ***
-HTML
-CSS
-JavaScript
-C#
-Photoshop
-Figma
+* HTML
+* CSS
+* JavaScript
+* C#
+* Photoshop
+* Figma
 
 ## Code Example
 ***
@@ -31,13 +31,13 @@ function numberToString(num) {
 
 ## Education
 ***
-University: 
-Belgorod State University, Fundamental and Applied Linguistics (2019-2023)
-Courses: 
-FreeCodeCamp, Responsive Web Design (in progress)
-RS School, JavaScript/Front-end stage0 (in progress)
+* University: 
+    * Belgorod State University, Fundamental and Applied Linguistics (2019-2023)
+* Courses: 
+    * FreeCodeCamp, Responsive Web Design (in progress)
+    * RS School, JavaScript/Front-end stage0 (in progress)
 
 ## Languages
 ***
-Russian – native speaker
-English – C1, tutoring since 2022
+* Russian – native speaker
+* English – C1, tutoring since 2022
