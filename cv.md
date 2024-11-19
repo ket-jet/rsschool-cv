@@ -7,8 +7,8 @@ Persistent and enthusiastic to learn. While teaching spoken English to IT worker
 ## Contact
 * **Phone:** +7-920-574-60-23
 * **E-mail:** ekat.sklyarova@yandex.ru
-* **Telegram:** @gadesha_hi
-* **GitHub:** @ket-jet
+* **Telegram:** [@gadesha_hi](https://t.me/gadesha_hi)
+* **GitHub:** [@ket-jet](https://github.com/ket-jet)
 
 ## Skills
 * HTML
@@ -30,8 +30,8 @@ function numberToString(num) {
 * **University:** 
     * Belgorod State University, Fundamental and Applied Linguistics (2019-2023)
 * **Courses:**
-    * FreeCodeCamp, Responsive Web Design (in progress)
-    * RS School, JavaScript/Front-end stage0 (in progress)
+    * [FreeCodeCamp](https://www.freecodecamp.org/), Responsive Web Design (in progress)
+    * [RS School](https://rs.school/), JavaScript/Front-end stage0 (in progress)
 
 ## Languages
 * **Russian** – native speaker
