@@ -1,2 +1,2 @@
 # rsschool-cv
-https://ket-jetgit.github.io/rsschool-cv/cv
+https://ket-jet.github.io/rsschool-cv/cv
