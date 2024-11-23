@@ -1,3 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Unbounded:wght@200..900&display=swap');
+:root {
+  --font-family: "Roboto Mono", sans-serif;
+  --second-family: "Unbounded", sans-serif;
+  --green:#a8f860;
+  --purple:#350b36;
+}
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 body {
-  background-color: white;
+  width: 100%;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+/* headings */
+h2 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 12px;
+}
+h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/* container */
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* header */
+.nav-item {
+  display: inline;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 12px;
+  margin: 0;
+}
+header {
+  height: 65px;
+  background: var(--green);
+  padding-top: 34px;
+}
+nav ul a {
+  color: black;
+}
+nav ul a:hover {
+  color: white;
+}
+nav ul a:active {
+  color: red;
+}
+/* about */
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  height: 371px;
+}
+.about-description {
+  width: 417px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.profile-photo {
+  width: 289px;
+  height: 320px;
+  margin-top: 25px;
+}
+.about-name {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 60px;
+  margin: 0;
+  padding: 0;
 }
