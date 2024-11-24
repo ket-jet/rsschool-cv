@@ -25,6 +25,7 @@ h2 {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 12px;
+  margin: 0;
 }
 h1 {
   font-family: var(--font-family);
@@ -75,15 +76,10 @@ nav ul a:active {
 }
 .about-description {
   width: 417px;
-  margin-top: 15px;
+  margin: 15px 0 24px 0;
   display: flex;
   flex-direction: column;
-  align-content: space-between;
-}
-.profile-photo {
-  width: 289px;
-  height: 320px;
-  margin-top: 25px;
+  justify-content: space-between;
 }
 .about-name {
   font-family: var(--second-family);
@@ -91,4 +87,75 @@ nav ul a:active {
   font-size: 60px;
   margin: 0;
   padding: 0;
+}
+.about-h1-box {
+  background-color: #a8f860;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.about-h1 {
+  margin: 0;
+}
+.about-p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0;
+  text-align: justify;
+}
+.profile-photo {
+  width: 289px;
+  height: 320px;
+  margin-top: 25px;
+}
+
+/* contact */
+.contact {
+  background-color: #350b36;
+}
+.contact-h2 {
+  color: white;
+}
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.contact-list {
+  list-style-type: none;
+  width: 581px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-item {
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+}
+.contact-list li {
+  display: flex;
+  align-items: center;
+}
+.contact-list a {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+svg {
+  margin: 0 6px 0 0;
+}
+.contact-item a:hover {
+  color: var(--green);
+}
+.contact-item a:hover svg path {
+  fill: var(--green);
+}
+.contact-item a:active {
+  color: red;
+}
+.contact-item a:active svg path {
+  fill: red;
 }
