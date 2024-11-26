@@ -170,6 +170,7 @@ svg {
 /* main container */
 .main-container {
   margin-top: 26px;
+  margin-bottom: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -200,3 +201,92 @@ svg {
 }
 
 /* projects */
+.projects-list {
+  margin: 0;
+  padding: 0 0 0 16px;
+}
+.projects-item {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+}
+.projects-info {
+  padding-bottom: 40px;
+}
+
+/* languages */
+.languages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+.languages-h2 {
+  width: 100%;
+}
+.languages-flags {
+  width: 20px;
+  height: 52px;
+  margin-right: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flag {
+  height: 20px;
+  width: 20px;
+}
+
+/* skills */
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+.skills-h2 {
+  width: 100%;
+}
+.skills-info {
+  width: 272px;
+  display: flex;
+  justify-content: space-between;
+}
+.skills-list {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.skills-rating {
+  width: 94px;
+  height: 146px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 17.75px;
+}
+.skills-score {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.skills-point, .skills-null {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border: solid 1px var(--purple);
+}
+.skills-point {
+  background-color: var(--purple);
+}
+
+/* code */
+pre {
+  margin: 0;
+}
+.code-h2 {
+  padding-bottom: 13px;
+}
