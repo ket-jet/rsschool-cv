@@ -199,6 +199,15 @@ svg {
 .education-courses {
   width: 284px;
 }
+.education a, .projects a {
+  color: var(--purple);
+}
+.education a:hover, .projects a:hover {
+  color: var(--green);
+}
+.education a:active, .projects a:active {
+  color: red;
+}
 
 /* projects */
 .projects-list {
@@ -289,4 +298,32 @@ pre {
 }
 .code-h2 {
   padding-bottom: 13px;
+}
+
+/* footer */
+footer {
+  background-color: #350b36;
+}
+footer p {
+  color: white;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.footer-year {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 12px;
+}
+footer .contact-item {
+  display: flex;
+  align-items: center;
+}
+footer .contact-item a {
+  color: white;
+  display: flex;
+  align-items: center;
 }
